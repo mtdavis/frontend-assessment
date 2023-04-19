@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import CountryTable from './CountryTable';
 
 function App() {
-  return <table></table>;
+  return <CountryTable />
 }
 
 export default App;
