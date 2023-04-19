@@ -35,6 +35,7 @@ interface Country {
   location: string;
   capitalCity: string;
   lat: number;
+  lng: number,
 }
 
 const country: Country = {
@@ -52,6 +53,5 @@ const country: Country = {
   capitalCity: "Kabul",
   lat: 33.93911,
   lng: 67.709953,
-  lng: number,
 }
 ```
